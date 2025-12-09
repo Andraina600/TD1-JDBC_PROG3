@@ -2,7 +2,7 @@ import java.time.Instant;
 
 public class Main {
     public static void main(String[] args) {
-        DateRetriever dr = new DateRetriever();
+      /*  DateRetriever dr = new DateRetriever();
 
        dr.getAllCategory().reversed().forEach( category -> {
            System.out.println("id: " + category.getId() + ", name: " + category.getName());
@@ -23,6 +23,6 @@ public class Main {
         dr.getProductsByCriteria(null, null, marsDebut, marsFin).forEach(System.out::println);
         System.out.println("-----------------------------------");
         System.out.println("Test3: produit Logitech dans Acccessoires crées après le 1er mars 2024: \n");
-        dr.getProductsByCriteria("Logitech", "accessoires", marsDebut, marsFin).forEach(System.out::println);
+        dr.getProductsByCriteria("Logitech", "accessoires", marsDebut, marsFin).forEach(System.out::println);*/
     }
 }
