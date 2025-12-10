@@ -103,7 +103,7 @@ public class DateRetriever {
 
         if(categoryName != null && !categoryName.isEmpty()){
             sql.append(" AND product_category.name ILIKE ?");
-            params.add(" %"+categoryName+"%");
+            params.add("%"+categoryName+"%");
         }
         if(creationMin != null){
             sql.append(" AND product.creation_datetime >= ? ");

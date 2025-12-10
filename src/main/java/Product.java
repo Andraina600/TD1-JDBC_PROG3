@@ -52,6 +52,10 @@ public class Product {
         return category;
     }
 
+    public String getCategoryName() {
+        return category == null ? null : category.getName();
+    }
+
     public void setCategory(Category cat) {
         this.category = cat;
     }

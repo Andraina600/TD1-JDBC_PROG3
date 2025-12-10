@@ -1,4 +1,4 @@
-INSERT INTO product values (1, 'Laptop Dell XPS', 4500.00, '2024-01-15 09:30:00')
+INSERT INTO product values (1, 'Laptop Dell XPS', 4500.00, '2024-01-15 09:30:00'),
 (2, 'iPhone13', 5200.00, '2024-02-01 14:10:00'),
 (3, 'Casque Sony WH1000', 890.50, '2024-02-10 16:45:00'),
 (4, 'Clavier Logitech', 180.00, '24-03-05 11:20:00'),
